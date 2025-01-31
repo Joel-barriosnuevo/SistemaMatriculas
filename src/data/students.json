@@ -16,6 +16,14 @@
     "matriculado": true
   },
   {
+    "id": "200",
+    "nombre": "Rosa Rodriguez",
+    "carrera": "Ingeniería Industrial",
+    "semestre": 4,
+    "creditosPermitidos": 15,
+    "matriculado": true
+  },
+  {
     "id": "103",
     "nombre": "Carlos Rodríguez",
     "carrera": "Ingeniería Civil",

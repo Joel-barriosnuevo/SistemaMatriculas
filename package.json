@@ -1,10 +1,12 @@
 {
-  "name": "matriculacion-academica",
+  "name": "repues",
   "version": "0.1.0",
   "private": true,
+  "homepage": "", 
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "jspdf": "^2.5.2",
     "jspdf-autotable": "^3.8.4",
     "react": "^19.0.0",
@@ -13,6 +15,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,11 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.2.17",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^4.0.0"
   }
 }
