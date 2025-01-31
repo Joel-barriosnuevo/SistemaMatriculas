@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SistemaMatriculas/static/css/main.a326512b.css",
+    "main.js": "/SistemaMatriculas/static/js/main.b457b2c5.js",
+    "static/js/239.b66e907f.chunk.js": "/SistemaMatriculas/static/js/239.b66e907f.chunk.js",
+    "static/js/213.91813991.chunk.js": "/SistemaMatriculas/static/js/213.91813991.chunk.js",
+    "static/js/732.2306e1ee.chunk.js": "/SistemaMatriculas/static/js/732.2306e1ee.chunk.js",
+    "static/js/488.76cf0a7a.chunk.js": "/SistemaMatriculas/static/js/488.76cf0a7a.chunk.js",
+    "index.html": "/SistemaMatriculas/index.html",
+    "main.a326512b.css.map": "/SistemaMatriculas/static/css/main.a326512b.css.map",
+    "main.b457b2c5.js.map": "/SistemaMatriculas/static/js/main.b457b2c5.js.map",
+    "239.b66e907f.chunk.js.map": "/SistemaMatriculas/static/js/239.b66e907f.chunk.js.map",
+    "213.91813991.chunk.js.map": "/SistemaMatriculas/static/js/213.91813991.chunk.js.map",
+    "732.2306e1ee.chunk.js.map": "/SistemaMatriculas/static/js/732.2306e1ee.chunk.js.map",
+    "488.76cf0a7a.chunk.js.map": "/SistemaMatriculas/static/js/488.76cf0a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a326512b.css",
+    "static/js/main.b457b2c5.js"
+  ]
+}
