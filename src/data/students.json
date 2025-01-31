@@ -1,0 +1,35 @@
+[
+  {
+    "id": "101",
+    "nombre": "Juan Pérez",
+    "carrera": "Ingeniería de Sistemas",
+    "semestre": 3,
+    "creditosPermitidos": 20,
+    "matriculado": true
+  },
+  {
+    "id": "102",
+    "nombre": "María García",
+    "carrera": "Ingeniería Industrial",
+    "semestre": 2,
+    "creditosPermitidos": 18,
+    "matriculado": true
+  },
+  {
+    "id": "103",
+    "nombre": "Carlos Rodríguez",
+    "carrera": "Ingeniería Civil",
+    "semestre": 4,
+    "creditosPermitidos": 22,
+    "matriculado": false
+  },
+  {
+    "id": "104",
+    "nombre": "Ana Martínez",
+    "carrera": "Ingeniería Electrónica",
+    "semestre": 1,
+    "creditosPermitidos": 16,
+    "matriculado": true
+  }
+]
+

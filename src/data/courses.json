@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "nombre": "Matemáticas I",
+      "codigo": "MAT101",
+      "creditos": 4,
+      "semestre": 1,
+      "limiteCupos": 30,
+      "matriculados": 25
+    },
+    {
+      "id": 2,
+      "nombre": "Programación Básica",
+      "codigo": "PRG101",
+      "creditos": 3,
+      "semestre": 1,
+      "limiteCupos": 25,
+      "matriculados": 20
+    },
+    {
+      "id": 3,
+      "nombre": "Física I",
+      "codigo": "FIS101",
+      "creditos": 4,
+      "semestre": 1,
+      "limiteCupos": 30,
+      "matriculados": 28
+    },
+    {
+      "id": 4,
+      "nombre": "Matemáticas II",
+      "codigo": "MAT201",
+      "creditos": 4,
+      "semestre": 2,
+      "limiteCupos": 30,
+      "matriculados": 22
+    },
+    {
+      "id": 5,
+      "nombre": "Programación Orientada a Objetos",
+      "codigo": "PRG201",
+      "creditos": 3,
+      "semestre": 2,
+      "limiteCupos": 25,
+      "matriculados": 18
+    },
+    {
+      "id": 6,
+      "nombre": "Física II",
+      "codigo": "FIS201",
+      "creditos": 4,
+      "semestre": 2,
+      "limiteCupos": 30,
+      "matriculados": 25
+    },
+    {
+      "id": 7,
+      "nombre": "Estructuras de Datos",
+      "codigo": "PRG301",
+      "creditos": 4,
+      "semestre": 3,
+      "limiteCupos": 25,
+      "matriculados": 20
+    },
+    {
+      "id": 8,
+      "nombre": "Cálculo Multivariable",
+      "codigo": "MAT301",
+      "creditos": 4,
+      "semestre": 3,
+      "limiteCupos": 30,
+      "matriculados": 26
+    },
+    {
+      "id": 9,
+      "nombre": "Bases de Datos",
+      "codigo": "BDD301",
+      "creditos": 3,
+      "semestre": 3,
+      "limiteCupos": 25,
+      "matriculados": 22
+    },
+    {
+      "id": 10,
+      "nombre": "Ingeniería de Software",
+      "codigo": "ING401",
+      "creditos": 4,
+      "semestre": 4,
+      "limiteCupos": 25,
+      "matriculados": 18
+    },
+    {
+      "id": 11,
+      "nombre": "Redes de Computadoras",
+      "codigo": "RED401",
+      "creditos": 3,
+      "semestre": 4,
+      "limiteCupos": 25,
+      "matriculados": 20
+    },
+    {
+      "id": 12,
+      "nombre": "Inteligencia Artificial",
+      "codigo": "IA401",
+      "creditos": 4,
+      "semestre": 4,
+      "limiteCupos": 25,
+      "matriculados": 23
+    }
+  ]
+  
+  
