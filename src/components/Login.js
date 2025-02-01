@@ -5,6 +5,9 @@ const Login = ({ onLogin, onNotEnrolled }) => {
   const [studentId, setStudentId] = useState("")
   const [error, setError] = useState("")
 
+  // Get the base URL for GitHub Pages
+  const baseUrl = "/SistemaMatriculas"
+
   const handleSubmit = (e) => {
     e.preventDefault()
     const student = students.find((s) => s.id === studentId)
@@ -23,7 +26,7 @@ const Login = ({ onLogin, onNotEnrolled }) => {
     <div
       className="min-vh-100 d-flex align-items-center justify-content-center"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
+        backgroundImage: `url(${baseUrl}/background.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -32,7 +35,7 @@ const Login = ({ onLogin, onNotEnrolled }) => {
       <div className="bg-white rounded shadow p-4" style={{ width: "400px" }}>
         <div className="text-center mb-4">
           <img
-            src={`${process.env.PUBLIC_URL}/logo_exia.png`}
+            src={`${baseUrl}/logo_exia.png`}
             alt="EXIA Logo"
             className="img-fluid"
             style={{ height: "35px", marginBottom: "10px" }}
