@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import students from "../data/students.json"
 
 const Login = ({ onLogin, onNotEnrolled }) => {
@@ -22,15 +22,21 @@ const Login = ({ onLogin, onNotEnrolled }) => {
   return (
     <div
       className="min-vh-100 d-flex align-items-center justify-content-center"
-      style={{ backgroundImage: "url('/background.jpg')",
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-       }}
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="bg-white rounded shadow p-4" style={{ width: "400px" }}>
         <div className="text-center mb-4">
-          <img src="/logo_exia.png" alt="EXIA Logo" className="img-fluid" style={{ height: "35px", marginBottom: "10px" }} />
+          <img
+            src={`${process.env.PUBLIC_URL}/logo_exia.png`}
+            alt="EXIA Logo"
+            className="img-fluid"
+            style={{ height: "35px", marginBottom: "10px" }}
+          />
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -90,6 +96,4 @@ const Login = ({ onLogin, onNotEnrolled }) => {
 }
 
 export default Login
-
-
 
